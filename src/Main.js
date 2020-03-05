@@ -24,7 +24,7 @@ export default function Main() {
     <p>Age :{age}</p>
     <button onClick={()=>setAge(age+1)}>click</button>
 
-{mount? <Child/>: null}
+{mount? <Child />: null}
 <button onClick={()=>setMount(!mount)}>Mount/Unmount</button>
         </div>
     )
